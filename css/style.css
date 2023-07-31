@@ -76,6 +76,7 @@ background: var(--color-dark-grey);
 .counter__button:disabled {
     opacity: 0.2;
 }
+
 .counter__button:active {
     background: var(--color-medium-grey);
     transform: translateY(2%);
