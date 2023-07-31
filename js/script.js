@@ -7,7 +7,8 @@ const number = document.querySelector('[data-key="number"]')
 const subtract = document.querySelector('[data-key="subtract"]')
 const add = document.querySelector('[data-key="add"]')
 
-// parseInt is a counts for every click number.value eirther more or less
+// parseInt counts for every click number.value eirther more or less
+// if disabled is true disable fucntion will display from css style
 // SubtractHandle holds newValue data
 const subtractHandler = () => {
     const newValue = parseInt(number.value) - 1  //replace value with STEP_AMOUNT to add by 5
