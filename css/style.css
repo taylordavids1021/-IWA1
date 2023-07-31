@@ -61,7 +61,7 @@ background: var(--color-dark-grey);
     display: flex;
 }
 
-.counter__button, .counter__button_first {
+.counter__button{
     background: none;
     width: 50%;
     border-width: 0;
